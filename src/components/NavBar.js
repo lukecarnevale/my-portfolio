@@ -16,22 +16,22 @@ export default function NavBar () {
           </NavLink>
           <NavLink
             to='/post'
-            activeClassName='text-blue-100 bg-blue-700'
-            className='inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-green-200'
+            activeClassName='text-blue-100 bg-green-700'
+            className='inline-flex cursive items-center py-3 px-3 my-6 rounded text-gray-200 text-2xl hover:text-green-200'
           >
             Blog Post
           </NavLink>
           <NavLink
             to='project'
-            activeClassName='text-blue-100 bg-blue-700'
-            className='inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-green-200'
+            activeClassName='text-blue-100 bg-green-700'
+            className='inline-flex cursive items-center py-3 px-3 my-6 rounded text-gray-200 text-2xl hover:text-green-200'
           >
             Projects
           </NavLink>
           <NavLink
             to='about'
-            activeClassName='text-blue-100 bg-blue-700'
-            className='inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-green-200'
+            activeClassName='text-blue-100 bg-green-700'
+            className='inline-flex cursive items-center py-3 px-3 my-6 rounded text-gray-200 text-2xl hover:text-green-200'
           >
              About Me!
           </NavLink>
