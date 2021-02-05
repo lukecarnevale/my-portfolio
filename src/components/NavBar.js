@@ -19,7 +19,7 @@ export default function NavBar () {
             activeClassName='text-blue-100 bg-green-700'
             className='inline-flex cursive items-center py-3 px-3 my-6 rounded text-gray-200 text-2xl hover:text-green-200'
           >
-            Blog Post
+            Blog Posts
           </NavLink>
           <NavLink
             to='project'

@@ -20,6 +20,10 @@ export default function Project () {
       .catch(console.error)
   }, [])
 
+  const Loading = require('react-loading-animation')
+
+  if (!projectData) return <div className='min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8'><Loading className='relative justify-center flex' /></div>
+
   return (
     <main className='bg-green-100 min-h-screen p-12'>
       <section className='container mx-auto'>

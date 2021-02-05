@@ -32,6 +32,14 @@ export default {
       }
     },
     {
+      name: 'projectImage',
+      title: 'Project image',
+      type: 'image',
+      options: {
+        hotspot: true
+      }
+    },
+    {
       name: 'link',
       type: 'url'
     },
